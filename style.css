@@ -1,0 +1,49 @@
+body {
+        background-image: linear-gradient(179deg, rgba(0, 0, 0, 1) 9.2%, rgba(127, 16, 16, 1) 103.9%);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        font-family: "Bokor", system-ui;
+    }
+    
+    .outer-box {
+        margin-top: 3rem;
+    }
+    
+    .heading {
+        color: whitesmoke;
+        font-size: 77px;
+        text-align: center;
+    }
+    
+    .game-set {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+        width: 500px;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn {
+        width: 150px;
+        height: 150px;
+        font-size: 48px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: white;
+        color: rgb(255, 0, 0);
+    }
+    
+    .btn-outline-success {
+        background-color: lightgreen; /* Change color when selected */
+    }
